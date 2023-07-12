@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Gymific</string>
+    <string name="app_name">WorkItOut</string>
     <string name="action_start">Start</string>
 
     <string name="content_description_category_arms">Arms category image</string>
