@@ -1,10 +1,10 @@
-# Gymific
+# WorkItOut
 <img src="/previews/preview_2.gif" align="right" width="33%"/>
 
-Gymific is a home workout app illustrating Android development best practices: Hilt, Preferences DataStore, WorkManager, DataBinding, Kotlin Coroutines & Flow.
+WorkItOut is a home workout app illustrating Android development best practices: Hilt, Preferences DataStore, WorkManager, DataBinding, Kotlin Coroutines & Flow.
 
 ## Overview
-  + Gymific has 3 main destinations that can be accessible from anywhere in the app by the ```Bottom Navigation``` set with Navigation Components.
+  + WorkItOut has 3 main destinations that can be accessible from anywhere in the app by the ```Bottom Navigation``` set with Navigation Components.
   + The Home and Workout screens start with lists of pre-populated data. Loading raw data into Room database is scheduled with WorkManager's ```OneTimeWorkRequest```.
   + The Workout screen consists of ```ViewPager2``` with Tabs that organize workouts across 3 different screens basing on workout's categories.
   + The Favourite screen displays list of user's selections. The list of favourite has an option to sort data. UserPreferenceRepository class holds the sort order, defined as an enum. The current sort order is saved in ```Jetpack DataStore```.
@@ -46,7 +46,7 @@ Gymific is a home workout app illustrating Android development best practices: H
   - <b>Repository Tests</b> - Repository is tested using local unit tests with mock versions of dao.
 
 ## Design
-+ Gymific is built with Material Components for Android.
++ WorkItOut is built with Material Components for Android.
 + The app has a Bottom Navigation, which provides access to main destinations.
 + The home screen displays horizontally and vertically oriented lists. 
 + The Workout screen has swipe views with tabs (using ViewPager2) and top app bars, that hides on scroll.
@@ -57,7 +57,7 @@ Gymific is a home workout app illustrating Android development best practices: H
 + All clickable components behave intuitively changing their appearance when they are pressed.
                                   
 ## Resource
-Gymific uses graphic resources from [freepik](https://www.freepik.com).
+WorkItOut uses graphic resources from [freepik](https://www.freepik.com).
 
 ## Preview
 <img src="/previews/preview_3.gif" width="33%"/>
